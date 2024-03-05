@@ -19,9 +19,10 @@ const Gallery = () => {
         imgarray.map((img)=>(
             <Image 
             src={img}
-            height={200}
-            width={200}
+            height={300}
+            width={300}
             alt='gallryImage'
+            key={img}
             />
         ))
       }
